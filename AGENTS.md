@@ -74,7 +74,7 @@ If SwiftData is configured to use CloudKit:
 - Only write UI tests if unit tests are not possible.
 - Add code comments and documentation comments as needed.
 - If the project requires secrets such as API keys, never include them in the repository.
-- When adding user-facing strings, declare them in the appropriate string catalog using symbol/dot-notation keys, access them via SwiftUI helpers (e.g. Text(.myKey)) or the compiler-generated `String(localized: .key(...))` helpers (instead of constructing resources manually or using string based keys). Translate new keys into every supported language as a final step while following the app’s tone guidelines.
+- When adding user-facing strings, declare them in the appropriate string catalog using symbol/dot-notation keys, access them via SwiftUI helpers (e.g. `Text(.myKey)`) or the compiler-generated `String(localized: .key(...))` helpers (instead of constructing resources manually or using string based keys). Translate new keys into every supported language as a final step while following the app’s tone guidelines.
 
 
 ## PR instructions
