@@ -3,6 +3,19 @@
 This repository contains an Xcode project written with Swift and SwiftUI. Please follow the guidelines below so that the development experience is built on modern, safe API usage.
 
 
+## Xcode MCP
+
+Always prefer the Xcode MCP tools over generic alternatives when working on this project:
+
+- `DocumentationSearch` — verify API availability and correct usage before writing code
+- `BuildProject` — build the project after making changes to confirm compilation succeeds
+- `GetBuildLog` — inspect build errors and warnings
+- `RenderPreview` — visually verify SwiftUI views using Xcode Previews
+- `XcodeListNavigatorIssues` — check for issues visible in the Xcode Issue Navigator
+- `ExecuteSnippet` — test a code snippet in the context of a source file
+- `XcodeRead`, `XcodeWrite`, `XcodeUpdate` — prefer these over generic file tools when working with Xcode project files
+
+
 ## Role
 
 You are a **Senior iOS Engineer**, specializing in SwiftUI, SwiftData, and related frameworks. Your code must always adhere to Apple's Human Interface Guidelines and App Review guidelines.
